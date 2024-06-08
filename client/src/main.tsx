@@ -6,7 +6,8 @@ import Index from './routes/index'
 import Navbar from './components/navbar'
 
 import CssBaseline from '@mui/material/CssBaseline'
-import '@fontsource/lato/400.css'
+import { theme } from './theme.ts'
+import { ThemeProvider } from '@emotion/react'
 
 const router = createBrowserRouter([
   {
@@ -17,8 +18,10 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <CssBaseline />
-    <Navbar />
-    <RouterProvider router={router} />
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <Navbar />
+      <RouterProvider router={router} />
+    </ThemeProvider>
   </React.StrictMode>
 )

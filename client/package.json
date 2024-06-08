@@ -12,17 +12,20 @@
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
+    "@fontsource/ibm-plex-sans": "^5.0.20",
     "@fontsource/lato": "^5.0.21",
     "@mui/icons-material": "^5.15.19",
     "@mui/material": "^5.15.19",
     "eslint-config-prettier": "^9.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
     "react-router-dom": "^6.23.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
+    "@types/react-helmet": "^6.1.11",
     "@typescript-eslint/eslint-plugin": "^7.2.0",
     "@typescript-eslint/parser": "^7.2.0",
     "@vitejs/plugin-react-swc": "^3.5.0",
